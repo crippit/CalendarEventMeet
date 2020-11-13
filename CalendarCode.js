@@ -1,6 +1,6 @@
 function createCalendarEvent() {
   var sheet = SpreadsheetApp.getActiveSheet();
-  var calendarID = 'jdkbi72mum5qb12knbq0n75ik4@group.calendar.google.com'
+  var calendarID = 'CALENDAR_ID_HERE'
   var calendar = CalendarApp.getCalendarById(calendarID);
   
   var startRow = 2;  // First row of data to process - 2 exempts my header row
